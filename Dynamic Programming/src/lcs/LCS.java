@@ -16,8 +16,8 @@ public class LCS {
 		System.out.println("Saju");
 
 		
-		String str1 = "abcabcaa";
-		String str2 = "acbacba";
+		String str1 = "acbacb";
+		String str2 = "abcabcaa";
 
 		// String str1 = "%shahjahan";
 		// String str2 = "%momtaj";
@@ -149,6 +149,13 @@ public class LCS {
 			}
 
 		}
+		
+//		for(int i = 0; i <= m; i++){
+//			for(int j = 0; j <= n; j++){
+//				System.out.print(dpBottomUp[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
 		
      // print Solution
 		printLCS(m, n, str1, str2, dpBottomUp);
